@@ -1,11 +1,12 @@
 .home-cmpl {
     align-items: center;
+    //border: 1px solid green;
     display: flex;
     height: 100vh;
     justify-content: center;
     overflow: hidden;
-    width: 100vw;
-    border: 1px solid green;
+    //width: 100vw;
+    
     .home-content {
         align-items: center;
         display: flex;
@@ -41,6 +42,7 @@
             object-position: 10% 10%;
             padding: 2rem;
             width: 350px;
+            
             /**/
         }
     }
@@ -48,8 +50,8 @@
 
 .home-spacer {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     padding: 0 12rem;
 }
 /*
