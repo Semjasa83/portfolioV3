@@ -1,0 +1,11 @@
+.position-container {
+  position: relative;
+  width: 100vw;
+}
+
+app-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}/*# sourceMappingURL=app.component.css.map */

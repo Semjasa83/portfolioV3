@@ -1,0 +1,59 @@
+.home-cmpl {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+    border: 1px solid green;
+    .home-content {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 4rem;
+        width: 100%;
+        
+        .home-text {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 550px;
+            
+            .fine-text {
+                font-size: 3rem;
+                font-weight: 200;
+            }
+            .bold-text {
+                font-size: 3rem;
+                font-weight: 700;
+                padding-bottom: 1rem;
+            }
+            .short-text {
+                font-size: 1rem;
+                font-weight: 100;
+            }
+        }
+        .profil-img {
+            border-radius: 100%;
+            height: 350px;
+            object-fit: cover;
+            object-position: 10% 10%;
+            padding: 2rem;
+            width: 350px;
+            /**/
+        }
+    }
+}
+
+.home-spacer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 12rem;
+}
+/*
+app-about {
+    border: 1px solid yellow;
+}
+*/
