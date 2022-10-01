@@ -1,10 +1,16 @@
-/*.position-container {
-    width: 100vw;
-}*/
 
 app-navigation {
-    position: absolute;
+    z-index: 3;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+}
+
+router-outlet {
+    z-index: 2;
+}
+
+app-footer {
+    z-index: 2;
 }

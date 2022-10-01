@@ -14,7 +14,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ResumeComponent } from './resume/resume.component';
-import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +28,7 @@ import { HeaderComponent } from './header/header.component';
     ProjectsComponent,
     SkillsComponent,
     TimelineComponent,
-    ResumeComponent,
-    HeaderComponent
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

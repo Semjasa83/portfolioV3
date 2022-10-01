@@ -1,26 +1,29 @@
 .home-cmpl {
     align-items: center;
-    //border: 1px solid green;
     display: flex;
     height: 100vh;
     justify-content: center;
     overflow: hidden;
-    //width: 100vw;
-    
+    position: relative;
+
     .home-content {
         align-items: center;
+        background-color: var(--dim-color);
         display: flex;
+        height: 100vh;
         justify-content: center;
+        overflow: hidden;
         padding-top: 4rem;
         width: 100%;
-        
+        z-index: 1;
+
         .home-text {
             align-items: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             width: 550px;
-            
+
             .fine-text {
                 font-size: 3rem;
                 font-weight: 200;
@@ -42,20 +45,32 @@
             object-position: 10% 10%;
             padding: 2rem;
             width: 350px;
-            
-            /**/
         }
     }
 }
 
+.bgr-img {
+    height: 120%;
+    object-fit: cover;
+    position: absolute;
+    width: 120%;
+    z-index: 0;
+    animation: bgrLoop 10s ease-in-out infinite;
+}
+
 .home-spacer {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 0 12rem;
 }
-/*
-app-about {
-    border: 1px solid yellow;
+
+@keyframes bgrLoop {
+    0% {
+        transform: scale(1) translateX(0) translateY(0);
+    }
+    50% {
+        transform: scale(1.04) translateX(-50px) translateY(-50px);
+    }
+    100% {
+        transform: scale(1) translateX(0) translateY(0);
+    }
 }
-*/
