@@ -1,15 +1,11 @@
 .home-cmpl {
     align-items: center;
-    display: flex;
     height: 100vh;
-    justify-content: center;
     overflow: hidden;
     position: relative;
 
     .home-content {
-        align-items: center;
         background-color: var(--dim-color);
-        display: flex;
         height: 100vh;
         justify-content: center;
         overflow: hidden;
@@ -18,8 +14,6 @@
         z-index: 1;
 
         .home-text {
-            align-items: center;
-            display: flex;
             flex-direction: column;
             justify-content: center;
             width: 550px;
@@ -50,16 +44,17 @@
 }
 
 .bgr-img {
+    animation: bgrLoop 10s ease-in-out infinite;
     height: 120%;
     object-fit: cover;
     position: absolute;
     width: 120%;
     z-index: 0;
-    animation: bgrLoop 10s ease-in-out infinite;
 }
 
 .home-spacer {
     flex-direction: column;
+    margin-top: 4rem;
     padding: 0 12rem;
 }
 
