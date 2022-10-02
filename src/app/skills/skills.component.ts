@@ -12,7 +12,7 @@ export class SkillsComponent implements OnInit {
 
   constructor(private service: WorksService) {
     this.skills = service.skills;
-   }
+  }
 
   ngOnInit(): void {
   }

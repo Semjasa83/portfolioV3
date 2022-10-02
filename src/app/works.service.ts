@@ -41,7 +41,7 @@ export class WorksService {
   aboutInfos = [
     {
       "id": 1,
-      "counter": "20+",
+      "counter": "27+",
       "description": "Projects",
       "description_2": "/> Completed"
     },
@@ -59,7 +59,7 @@ export class WorksService {
     },
     {
       "id": 4,
-      "counter": "27+",
+      "counter": "28+",
       "description": "Years of",
       "description_2": "/> Windows Experience"
     }
@@ -69,47 +69,56 @@ export class WorksService {
     {
       "id": 1,
       "name": "HTML5",
-      "img": "./assets/img/html5.png"
+      "img": "./assets/img/html5.png",
+      "icon": "./assets/img/icons/html.svg"
     },
     {
       "id": 2,
       "name": "CSS3",
-      "img": "./assets/img/css.png"
+      "img": "./assets/img/css.png",
+      "icon": "./assets/img/icons/css.svg"
     },
     {
       "id": 3,
-      "name": "SASS",
-      "img": "./assets/img/sass.png"
+      "name": "SCSS/SASS",
+      "img": "./assets/img/sass.png",
+      "icon": "./assets/img/icons/sass.svg"
     },
     {
       "id": 4,
       "name": "JavaScript",
-      "img": "./assets/img/javascript.png"
+      "img": "./assets/img/javascript.png",
+      "icon": "./assets/img/icons/js.svg"
     },
     {
       "id": 5,
       "name": "Angular",
-      "img": "./assets/img/angular.png"
+      "img": "./assets/img/angular.png",
+      "icon": "./assets/img/icons/angular.svg"
     },
     {
       "id": 6,
       "name": "Git",
-      "img": "./assets/img/github-fill.png"
+      "img": "./assets/img/github-fill.png",
+      "icon": "./assets/img/icons/git.svg"
     },
     {
       "id": 7,
       "name": "Scrum",
-      "img": "./assets/img/scrum.png"
+      "img": "./assets/img/scrum.png",
+      "icon": "./assets/img/icons/scrum.png"
     },
     {
       "id": 8,
       "name": "RestAPI",
-      "img": "./assets/img/restapi.png"
+      "img": "./assets/img/restapi.png",
+      "icon": "./assets/img/icons/api.png"
     },
     {
       "id": 9,
       "name": "Database",
-      "img": "./assets/img/database.svg"
+      "img": "./assets/img/database.svg",
+      "icon": "./assets/img/icons/db.png"
     }
   ]
 

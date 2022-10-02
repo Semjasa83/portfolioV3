@@ -6,26 +6,78 @@
 </div>
 
 <div class="am-content disp-fl-just mb-6 mt-2">
-    <img src="./assets/img/archery.jpeg"
-        data-aos="fade-right"
-        data-aos-easing="ease-in-sine"     
+    <img src="./assets/img/archery.jpeg" 
+        data-aos="fade-right" 
+        data-aos-easing="ease-in-sine" 
         data-aos-offset="200"
-        data-aos-delay="20"
+        data-aos-delay="20" 
         data-aos-duration="600">
-    <div class="am-splitter disp-fl-aln"
-        data-aos="fade-left"
-        data-aos-easing="ease-in-sine"     
+    <div class="am-splitter disp-fl-aln" 
+        data-aos="fade-left" 
+        data-aos-easing="ease-in-sine" 
         data-aos-offset="200"
-        data-aos-delay="20"
+        data-aos-delay="20" 
         data-aos-duration="600">
-        <span class="am-txt">
-            As a Front-End Web Developer, my experience ranges from practical Group Projects to individual practical
-            projects. I started with Webpages to RestAPI, SCRUM, Games, and last but not least business Applications.
-            <br>
-            <br>
-            I love learning new technologies and spending time with my family. I`ve been doing Archery for many years for
-            mental Balance.
-        </span>
-        <a class="cursor"  href="https://drive.google.com/file/d/1LVObxfaExcc_hfjHvSjmO-G24icJWwli/view" target="_blank">Download CV</a>
+        <div class="am-center disp-fl-just">
+            <div class="am-txt disp-fl-just">
+                <span>I have always been fascinated by the diverse possibilities of using programming sensibly for
+                    automation. As I started to dive deeper into software development, I discovered that it was a perfect
+                    combination of my strengths and interests.</span>
+                <div class="am-txt-spacer"><i class="fa-solid fa-microscope icon"></i><span>I quickly noticed that
+                        troubleshooting, S7, and work processes require analytical thinking and strong focus, which is a big
+                        part of writing structured
+                        code.</span></div>
+                <div class="am-txt-spacer"><i class="fa-solid fa-arrows-to-circle icon"></i><span>At the same time, I can
+                        express my creative side in personal coding projects - especially my
+                        passion for Airbrush, Photoshop, and product design with CAD.</span></div>
+                <span>Learning web development closes the logical circle for me. I'm ready to take on challenges with the
+                    same focus as in archery to constantly improve - one project at a time.</span>
+            </div>
+            <a class="cursor" href="https://docs.google.com/document/d/1gYwcqtNMWK1nTOSnFep7nOF-Olnxsif8q1rLXTm4R94"
+                target="_blank">Download CV</a>
+        </div>
+
     </div>
+</div>
+<!--
+<div class="ai-content mb-6">
+    <div class="ai-item" *ngFor="let info of infos">
+        <span>{{ info.counter }}</span>
+    </div>
+</div>
+-->
+<div class="headline-spacer disp-fl-just">
+    <div class="headline disp-fl-just">
+
+    </div>
+</div>
+<div class="skills-content">
+    <div class="skill-text disp-fl-just"
+        data-aos="fade-right" 
+        data-aos-easing="ease-in-sine" 
+        data-aos-offset="200"
+        data-aos-delay="20" 
+        data-aos-duration="600">
+        <div class="skill-headline">
+            <div class="sk-head-1">My</div>
+            <div class="sk-head-2">Skillset</div>
+        </div>
+
+        <span>
+            At this point my frontend development skills, which I have used in several single and group projects. More
+            on that in the projects below.
+        </span>
+    </div>
+    <div class="skills-area"
+        data-aos="fade-left" 
+        data-aos-easing="ease-in-sine" 
+        data-aos-offset="200"
+        data-aos-delay="20" 
+        data-aos-duration="600">
+        <div class="skills-overview disp-fl-just" *ngFor="let skill of skills">
+            <img src="{{skill.icon}}">
+            <span class="skill-name">{{skill.name}}</span>
+        </div>
+    </div>
+
 </div>
