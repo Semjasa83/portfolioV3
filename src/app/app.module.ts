@@ -11,9 +11,6 @@ import { HomeComponent } from './home/home.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { SkillsComponent } from './skills/skills.component';
-import { TimelineComponent } from './timeline/timeline.component';
-import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +22,7 @@ import { ResumeComponent } from './resume/resume.component';
     HomeComponent,
     ImprintComponent,
     NavigationComponent,
-    ProjectsComponent,
-    SkillsComponent,
-    TimelineComponent,
-    ResumeComponent
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

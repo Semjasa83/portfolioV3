@@ -69,3 +69,29 @@
         transform: scale(1) translateX(0) translateY(0);
     }
 }
+
+.social-media {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 4rem;
+    height: 200px;
+    background: var(--font-green);
+    background: linear-gradient(0deg, rgba(186, 201, 100, 1) 0%, rgba(186, 201, 100, 0) 100%);
+    border-left: 1px solid var(--font-green);
+    flex-direction: column;
+    justify-content: flex-end;
+    .media-icon {
+        padding: 1rem;
+        background-color: var(--secondary-transparent);
+        align-items: center;
+        margin-top: 1rem;
+        &:hover {
+        background-color: var(--secondary-color);
+        }
+        .media-img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

@@ -28,28 +28,4 @@
             color: var(--font-green);
         }
     }
-    .social-media {
-        margin-right: 0.5rem;
-        display: flex;
-        a {
-            text-decoration: none;
-            margin-right: 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            font-size: 1.5rem;
-            background-color: var(--secondary-color);
-            padding: 1rem;
-            width: 30px;
-            height: 30px;
-            border-radius: 100%;
-            color: var(--font-green);
-            &:hover {
-                color: var(--secondary-color);
-                background-color: var(--font-green);
-                transition: all 0.4s ease-in-out;
-            }
-        }
-    }
 }
