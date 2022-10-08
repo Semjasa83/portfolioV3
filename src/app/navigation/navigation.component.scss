@@ -27,7 +27,15 @@ ul {
     padding: 0;
 
     li {
-        padding: 1rem;
+        a {
+            padding: 1rem;
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: var(--font-green);
+                transition: all 0.2s ease-in-out;
+            }
+        }
     }
 }
 
@@ -38,4 +46,3 @@ ul {
     height: 100%;
     backdrop-filter: blur(9px);
 }
-

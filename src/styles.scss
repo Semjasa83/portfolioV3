@@ -21,6 +21,12 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    overflow-y: scroll
+}
+
+.active {
+    color: var(--font-green);
+    transition: .5s ease-in-out;
 }
 
 .headline-spacer {

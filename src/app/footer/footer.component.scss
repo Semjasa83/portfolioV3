@@ -16,3 +16,10 @@
 .footer-spacer {
     margin: 0 1rem;
 }
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
