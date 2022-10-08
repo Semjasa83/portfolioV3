@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataprotectionComponent } from './dataprotection.component';
+import { LegalnoticeComponent } from './legalnotice.component';
 
-describe('DataprotectionComponent', () => {
-  let component: DataprotectionComponent;
-  let fixture: ComponentFixture<DataprotectionComponent>;
+describe('LegalnoticeComponent', () => {
+  let component: LegalnoticeComponent;
+  let fixture: ComponentFixture<LegalnoticeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DataprotectionComponent ]
+      declarations: [ LegalnoticeComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DataprotectionComponent);
+    fixture = TestBed.createComponent(LegalnoticeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

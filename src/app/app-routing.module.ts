@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { LegalnoticeComponent } from './legalnotice/legalnotice.component';
 
 const routes: Routes = [
   {
@@ -10,6 +12,8 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   { path: 'home', component: HomeComponent },
+  { path: 'imprint', component: ImprintComponent },
+  { path: 'legalnotice', component: LegalnoticeComponent },
 ];
 
 @NgModule({
