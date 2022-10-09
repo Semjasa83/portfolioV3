@@ -1,0 +1,28 @@
+.imprint-spacer {
+    padding: 0 12rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imprint-content {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--font-green);
+    padding: 2rem;
+    .imp-info {
+        color: var(--font-green);
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+    }
+    .imprint-txt {
+        color: var(--font-grey);
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        padding: 1rem 0;
+    }
+}
