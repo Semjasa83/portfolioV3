@@ -7,6 +7,8 @@
 
 <div class="contact-spacer mb-6">
     <form class="contact-form"
+        action="http://marcel-dezanna.developerakademie.net/send_mail.php"
+        method="post"
         data-aos="fade-right" 
         data-aos-easing="ease-in-sine" 
         data-aos-offset="200"
@@ -14,8 +16,8 @@
         data-aos-duration="600">
         <span class="headline-3">Get In Touch</span>
         <div class="form-group"><input type="text" placeholder="Your Name" required></div>
-        <div class="form-group"><input type="email" placeholder="Your E-Mail" required></div>
-        <div class="form-group"><textarea cols="30" rows="20" Placeholder="Write a Message" required></textarea></div>
+        <div class="form-group"><input type="email" placeholder="Your E-Mail" name="name" required></div>
+        <div class="form-group"><textarea cols="30" rows="20" Placeholder="Write a Message" name="message" required></textarea></div>
         <div class="form-button"><input type="submit" value="Send Message"  class="cursor"></div>
     </form>
     <div class="contact-details"
