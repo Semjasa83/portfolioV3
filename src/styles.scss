@@ -319,3 +319,6 @@ body {
         url("/assets/fonts/plus-jakarta-sans-v3-latin-800italic.ttf") format("truetype"),
         url("/assets/fonts/plus-jakarta-sans-v3-latin-800italic.svg#PlusJakartaSans") format("svg"); /* Legacy iOS */
 } /*# sourceMappingURL=styles.css.map */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

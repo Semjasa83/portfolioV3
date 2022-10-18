@@ -1,1 +1,33 @@
-<p>projects works!</p>
+<div class="headline-spacer disp-fl-just">
+    <div class="headline disp-fl-just">
+        <span class="headline-1">My</span>
+        <span class="headline-2">Projects</span>
+    </div>
+</div>
+
+<div class="project-area">  
+    <div class="projects" *ngFor="let works of myWorks">
+        <div class="project-img">
+            <img src="{{works.img}}">
+            <div class="social-media disp-fl-aln">
+                <a href="#" target="_blank" class="media-icon cursor disp-fl-just"><!--TODO LINK-->
+                    <img class="media-img" src="./assets/img/play.png">
+                </a>
+                <a href="{{works.gitURL}}" target="_blank" class="media-icon cursor disp-fl-just">
+                    <img class="media-img" src="./assets/img/icons/git.svg">
+                </a>
+            </div>
+        </div>
+
+        <div class="project-info">
+            <div class="project-txt">
+                <span class="project-name">{{works.name}}</span>
+                <span class="project-info-txt">{{works.description}}</span>
+                <div>
+                    <span class="stack-intro">Build with:</span>
+                    <span class="stack">{{works.tech}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

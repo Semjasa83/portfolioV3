@@ -9,33 +9,51 @@ export class WorksService {
     {
       "id": 1,
       "name": "Pokedex",
-      "img": "./assets/img/poke-frame.jpg",
-      "gitURL": "https://github.com/Semjasa83/pokedex",
-      "webURL": "#"
+      "img": "./assets/img/#",
+      "gitURL": "https://github.com/Semjasa83/pokedex_2.git",
+      "webURL": "#",
+      "description": "In this project, the focus was on receiving data from an API in several levels and rendering them.",
+      "tech": "HTML/SCSS, JavaScript"
     },
-
     {
       "id": 2,
-      "name": "Join-Kanban-Board",
-      "img": "./assets/img/join-frame.jpg",
-      "gitURL": "https://github.com/normanrahmel/Join-Kanban-board",
-      "webURL": "#"
+      "name": "Portfolio",
+      "img": "./assets/img/portfolio.jpg",
+      "gitURL": "https://github.com/Semjasa83/portfolioV3.git",
+      "webURL": "#",
+      "description": "for the portfolio shown here, I don't want to withhold the code :)",
+      "tech": "HTML/SCSS, Angular, Typescript"
     },
-
     {
       "id": 3,
-      "name": "El Pollo Loco",
-      "img": "./assets/img/elpollo-frame.jpg",
-      "gitURL": "https://github.com/Semjasa83/el_pollo",
-      "webURL": "#"
-    },
-    {
-      "id": 4,
       "name": "Ring of Fire",
       "img": "./assets/img/frame-ring.jpg",
       "gitURL": "https://github.com/Semjasa83/ringoffire",
-      "webURL": "#"
-    }
+      "webURL": "#",
+      "description": "Multiplayer browser game Implementation of the card game - Ring of Fire .",
+      "tech": "HTML/SCSS, Angular, Typescript, Google Firebase"
+    },
+/*
+    {
+      "id": 4,
+      "name": "Join-Kanban-Board",
+      "img": "./assets/img/#",
+      "gitURL": "https://github.com/Semjasa83/join_2.git",
+      "webURL": "#",
+      "description": "This KANBAN board was about teamwork, UX design implementation and practical relevance.",
+      "tech": "Angular, Materials, AOS, Django (by N.R.)"
+    },
+*/
+    {
+      "id": 5,
+      "name": "El Pollo Loco",
+      "img": "./assets/img/elpollo-frame.jpg",
+      "gitURL": "https://github.com/Semjasa83/el_pollo",
+      "webURL": "#",
+      "description": "Small jump `n run browser game using OOP in JavaScript.",
+      "tech": "HTML/CSS, JavaScript"
+    },
+
   ]
 
   aboutInfos = [

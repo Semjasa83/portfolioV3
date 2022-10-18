@@ -12,6 +12,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LegalnoticeComponent } from './legalnotice/legalnotice.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
