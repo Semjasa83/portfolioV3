@@ -9,7 +9,7 @@ export class WorksService {
     {
       "id": 1,
       "name": "Pokedex",
-      "img": "./assets/img/#",
+      "img": "./assets/img/pokedex.jpg",
       "gitURL": "https://github.com/Semjasa83/pokedex_2.git",
       "webURL": "#",
       "description": "In this project, the focus was on receiving data from an API in several levels and rendering them.",

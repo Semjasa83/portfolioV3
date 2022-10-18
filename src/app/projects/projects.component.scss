@@ -23,12 +23,42 @@
     .project-info {
         display: flex;
         width: 50%;
-        
-        .project-txt {
-            display: flex;
-            flex-direction: column;
-            margin-left: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+.project-txt-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1rem;
+    border-left: 1px solid var(--font-green);
+    .project-txt {
+        display: flex;
+        flex-direction: column;
+        .project-name {
+            color: var(--font-green);
+            font-size: 1.3rem;
+            font-weight: 699;
+            padding-bottom: 1rem;
         }
+        .project-info-txt {
+            color: var(--font-grey);
+        }
+    }
+}
+
+.stack-section {
+    display: flex;
+    flex-direction: column;
+    .stack-intro {
+        color: var(--font-grey);
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    .stack {
+        color: var(--font-green);
+        font-size: 1.1rem;
     }
 }
 
