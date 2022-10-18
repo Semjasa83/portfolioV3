@@ -30,7 +30,7 @@ export class WorksService {
       "img": "./assets/img/frame-ring.jpg",
       "gitURL": "https://github.com/Semjasa83/ringoffire",
       "webURL": "#",
-      "description": "Multiplayer browser game Implementation of the card game - Ring of Fire .",
+      "description": "Multiplayer browser game Implementation of the card game Ring of Fire.",
       "tech": "HTML/SCSS, Angular, Typescript, Google Firebase"
     },
 /*
