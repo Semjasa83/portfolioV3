@@ -119,3 +119,16 @@
     }
 }
 
+@media (max-width: 950px) {
+    .contact-spacer {
+        flex-direction: column-reverse;
+        .contact-details {
+            margin-left: 0;
+            .contact-details-spacer {
+            width: 100%;}
+        }
+        .contact-form {
+            width: 100%;
+        }
+    }
+}
