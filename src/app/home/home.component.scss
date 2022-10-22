@@ -113,3 +113,11 @@
         width: 280px !important;
     }
 }
+
+@media (max-width: 760px) {
+    .home-spacer {
+        padding: 0 !important;
+        margin: 0 2rem;
+        overflow-x: hidden;
+    }
+}

@@ -23,3 +23,30 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 910px) {
+    .footer-center {
+        flex-direction: column-reverse;
+        padding: 3rem 4.5rem;
+    }
+    .copyright {
+        margin-bottom: 1rem;
+        flex-direction: row;
+        span {
+            padding-right: 1rem;
+        }
+    }
+    .footer-notice {
+        margin-bottom: 1rem;
+    }
+    .footer-tech {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-center {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

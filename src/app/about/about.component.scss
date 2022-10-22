@@ -133,6 +133,9 @@
         img {
             margin-top: 4rem;
         }
+        .am-splitter {
+            padding-left: 2rem;
+        }
     }
 }
 
@@ -148,3 +151,9 @@
     }
 }
 }
+
+@media (max-width: 550px) {
+    .skills-area {
+        grid-template-columns: repeat(2, 1fr) !important;
+        width: 100%;
+    }}
