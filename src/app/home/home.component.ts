@@ -8,19 +8,10 @@ import { GlobalService } from '../global.service';
 })
 export class HomeComponent implements OnInit {
 
-  //mobileWidth: boolean = false;
 
-  constructor(private service: GlobalService) { }
+  constructor(public service: GlobalService) { }
 
   ngOnInit(): void {
-   // this.responsivWindow();
   }
 
-  // responsivWindow() {
-  //   if (window.innerWidth < 550) {
-  //     console.log(window.innerWidth);
-  //     this.mobileWidth = true;
-  //     console.log(this.mobileWidth);
-  //   }
-  // }
 }

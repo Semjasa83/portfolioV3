@@ -1,8 +1,8 @@
 <div class="menu-nav">
-    <div class="name-logo disp-fl-just" *ngIf="!mobileWidth">
+    <div class="name-logo disp-fl-just" *ngIf="!service.mobileWidth">
         <span>.MdZ</span>
     </div>
-    <div class="social-media disp-fl-aln" *ngIf="mobileWidth">
+    <div class="social-media disp-fl-aln" *ngIf="service.mobileWidth">
         <a href="https://www.linkedin.com/in/marcel-de-zanna/" target="_blank" class="media-icon cursor disp-fl-just">
             <img class="media-img" src="./assets/img/icons/linkedin.svg">
         </a>
@@ -11,7 +11,7 @@
         </a>
     </div>
 
-    <button class="menu-button" mat-icon-button *ngIf="mobileWidth" [matMenuTriggerFor]="burgermenu">
+    <button class="menu-button" mat-icon-button *ngIf="service.mobileWidth" [matMenuTriggerFor]="burgermenu">
         <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #burgermenu="matMenu" class="burger-menu">
@@ -21,7 +21,7 @@
         <button mat-menu-item class="burger-btn"><a class="cursor" href='#contact'>CONTACT</a></button>
     </mat-menu>
 
-    <ul class="disp-fl-just" *ngIf="!mobileWidth">
+    <ul class="disp-fl-just" *ngIf="!service.mobileWidth">
         <li><a class="cursor" href='#home'>HOME</a></li>
         <li><a class="cursor" href='#about'>ABOUT</a></li>
         <li><a class="cursor" href='#projects'>PROJECTS</a></li>

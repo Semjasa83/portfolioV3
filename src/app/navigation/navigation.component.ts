@@ -8,24 +8,12 @@ import { GlobalService } from '../global.service';
 })
 export class NavigationComponent implements OnInit {
 
-  mobileWidth: boolean;
-
   constructor(public service: GlobalService ) {
 
-
-    this.mobileWidth = service.mobileWidth;
-    console.log(this.mobileWidth);
   }
 
 
   ngOnInit(): void {
     this.service.responsivWindow();
   }
-  // responsivWindow() {
-  //   if (window.innerWidth < 550) {
-  //     console.log(window.innerWidth);
-  //     this.mobileWidth = true;
-  //     console.log(this.mobileWidth);
-  //   }
-  // }
 }
