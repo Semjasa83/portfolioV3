@@ -11,6 +11,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LegalnoticeComponent } from './legalnotice/legalnotice.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -23,11 +24,12 @@ import { LegalnoticeComponent } from './legalnotice/legalnotice.component';
     ImprintComponent,
     NavigationComponent,
     ProjectsComponent,
-    LegalnoticeComponent
+    LegalnoticeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

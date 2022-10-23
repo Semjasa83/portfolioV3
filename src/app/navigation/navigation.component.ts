@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  mobileWidth: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.responsivWindow();
   }
 
+  responsivWindow() {
+    if (window.innerWidth < 550 ) {
+      console.log(window.innerWidth);
+      this.mobileWidth = true;
+      console.log(this.mobileWidth);
+    }
+  }
 }

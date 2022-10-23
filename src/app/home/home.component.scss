@@ -77,27 +77,29 @@
 }
 
 .social-media {
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 4rem;
-    height: 200px;
     background: var(--font-green);
     background: linear-gradient(0deg, rgba(186, 201, 100, 1) 0%, rgba(186, 201, 100, 0) 100%);
     border-left: 1px solid var(--font-green);
+    bottom: 0;
     flex-direction: column;
+    height: 200px;
     justify-content: flex-end;
+    left: 4rem;
+    position: absolute;
+    z-index: 1;
+
     .media-icon {
-        padding: 1rem;
-        background-color: var(--secondary-transparent);
         align-items: center;
+        background-color: var(--secondary-transparent);
         margin-top: 1rem;
+        padding: 1rem;
+
         &:hover {
-        background-color: var(--secondary-color);
+            background-color: var(--secondary-color);
         }
         .media-img {
-            width: 30px;
             height: 30px;
+            width: 30px;
         }
     }
 }
@@ -107,17 +109,53 @@
         flex-direction: column-reverse;
     }
     .profil-img {
-        padding: 0 !important;
-        margin-bottom: 4rem;
         height: 280px !important;
+        margin-bottom: 4rem;
+        padding: 0 !important;
         width: 280px !important;
     }
 }
 
 @media (max-width: 760px) {
     .home-spacer {
-        padding: 0 !important;
         margin: 0 2rem;
         overflow-x: hidden;
+        padding: 0 !important;
+    }
+    .social-media {
+        border-left: none;
+        left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-content {
+        .home-text {
+            transform: scale(0.6);
+        }
+        .profil-img {
+            height: 200px !important;
+            width: 200px !important;
+            margin-bottom: 0;
+        }
+    }
+
+    .social-media {
+        background: var(--font-green);
+        background: linear-gradient(90deg, rgba(186, 201, 100, 1) 0%, rgba(186, 201, 100, 0) 100%);
+        border-left: none;
+        border-bottom: 1px solid var(--font-green);
+        flex-direction: row;
+        height: 36px;
+        
+        .media-icon {
+            margin-top: 0;
+            margin-right: 1rem;
+            padding: 0.5rem;
+            .media-img {
+                height: 20px;
+                width: 20px;
+            }
+        }
     }
 }
