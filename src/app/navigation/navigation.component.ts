@@ -10,7 +10,7 @@ export class NavigationComponent implements OnInit {
 
   mobileWidth: boolean;
 
-  constructor(private service: GlobalService ) {
+  constructor(public service: GlobalService ) {
 
 
     this.mobileWidth = service.mobileWidth;
@@ -19,7 +19,7 @@ export class NavigationComponent implements OnInit {
 
 
   ngOnInit(): void {
-
+    this.service.responsivWindow();
   }
   // responsivWindow() {
   //   if (window.innerWidth < 550) {
