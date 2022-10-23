@@ -7,9 +7,7 @@ export class GlobalService {
 
   mobileWidth: boolean = false;
 
-  constructor() { 
-    this.mobileWidth = false
-  }
+  constructor() {}
 
   responsivWindow() {
     if (window.innerWidth < 550 ) {
