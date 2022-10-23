@@ -47,8 +47,7 @@ ul {
 
     .menu-button {
         align-items: center;
-        background-color: var(--font-green);
-        background: linear-gradient(270deg, rgba(186, 201, 100, 0.6) 0%, rgba(186, 201, 100, 0) 100%);
+        background-color: var(--secondary-transparent);
         border: unset;
         color: var(--font-green);
         cursor: pointer;
@@ -71,8 +70,6 @@ ul {
 }
 
 .social-media {
-    background: var(--font-green);
-    background: linear-gradient(90deg, rgba(186, 201, 100, 1) 0%, rgba(186, 201, 100, 0) 100%);
     bottom: 0;
     flex-direction: row;
     height: 100%;
