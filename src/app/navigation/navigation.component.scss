@@ -14,13 +14,18 @@
     margin-left: 4rem;
     width: 4rem;
     z-index: 50;
-
-    span {
-        bottom: 1rem;
+    
+    a {
+        height: 1rem;
+        padding: 0.7rem;
         color: var(--primary-color);
         font-size: 1.1rem;
         font-weight: 500;
+        text-decoration: none;
         transform: translateY(50px);
+        &:hover {
+            color: var(--font-green);
+        }
     }
 }
 
@@ -29,13 +34,14 @@ ul {
     margin: 0 4rem 0 0;
     padding: 0;
     z-index: 50;
-
+    
     li {
+        
         a {
             color: white;
             padding: 1rem;
             text-decoration: none;
-
+            
             &:hover {
                 color: var(--font-green);
                 transition: all 0.2s ease-in-out;
@@ -60,6 +66,7 @@ ul {
 }
 
 .burger-btn {
+    
     &:hover {
         background-color: var(--secondary-transparent)
     }
@@ -67,7 +74,6 @@ ul {
         color: var(--font-green);
         text-decoration: none;
     }
-
 }
 
 .bgr-blur {
@@ -86,13 +92,13 @@ ul {
     left: 0;
     position: absolute;
     z-index: 50;
-
+    
     .media-icon {
         align-items: center;
         background-color: var(--secondary-transparent);
         margin-right: 1rem;
         padding: 0.5rem;
-
+        
         &:hover {
             background-color: var(--secondary-color);
         }
@@ -104,6 +110,7 @@ ul {
 }
 
 @media (max-width: 760px) {
+    
     .name-logo {
         border-left: none;
         margin-left: 0;
@@ -111,6 +118,7 @@ ul {
 }
 
 @media (max-width: 550px) {
+    
     .menu-nav {
         height: 3rem !important;
     }

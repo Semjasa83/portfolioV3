@@ -14,6 +14,7 @@ import { LegalnoticeComponent } from './legalnotice/legalnotice.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SuccessComponent } from './success/success.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavigationComponent,
     ProjectsComponent,
     LegalnoticeComponent,
+    SuccessComponent,
   ],
   imports: [
     BrowserModule,
