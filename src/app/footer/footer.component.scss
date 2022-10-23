@@ -9,6 +9,10 @@
         a{
         text-decoration: none;
         color: var(--secondary-color);
+        &:hover {
+            color: var(--button-color);
+            text-decoration: underline;
+        }
         }
     }
 }
