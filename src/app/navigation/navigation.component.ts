@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -9,14 +9,13 @@ export class NavigationComponent implements OnInit {
 
   mobileWidth: boolean = false;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     this.responsivWindow();
   }
-
   responsivWindow() {
-    if (window.innerWidth < 550 ) {
+    if (window.innerWidth < 550) {
       console.log(window.innerWidth);
       this.mobileWidth = true;
       console.log(this.mobileWidth);

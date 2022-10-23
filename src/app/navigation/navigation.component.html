@@ -11,10 +11,15 @@
         </a>
     </div>
 
-    <button class="menu-button" mat-icon-button *ngIf="mobileWidth">
+    <button class="menu-button" mat-icon-button *ngIf="mobileWidth" [matMenuTriggerFor]="burgermenu">
         <mat-icon>menu</mat-icon>
     </button>
-
+    <mat-menu #burgermenu="matMenu" class="burger-menu">
+        <button mat-menu-item class="burger-btn"><a class="cursor" href='#home'>HOME</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor" href='#about'>ABOUT</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor" href='#projects'>PROJECTS</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor" href='#contact'>CONTACT</a></button>
+    </mat-menu>
 
     <ul class="disp-fl-just" *ngIf="!mobileWidth">
         <li><a class="cursor" href='#home'>HOME</a></li>

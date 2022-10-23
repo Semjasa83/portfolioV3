@@ -14,7 +14,7 @@
     margin-left: 4rem;
     width: 4rem;
     z-index: 50;
-    
+
     span {
         bottom: 1rem;
         color: var(--primary-color);
@@ -29,14 +29,13 @@ ul {
     margin: 0 4rem 0 0;
     padding: 0;
     z-index: 50;
-    
+
     li {
-        
         a {
             color: white;
             padding: 1rem;
             text-decoration: none;
-            
+
             &:hover {
                 color: var(--font-green);
                 transition: all 0.2s ease-in-out;
@@ -45,21 +44,31 @@ ul {
     }
 }
 
-    .menu-button {
-        align-items: center;
-        background-color: var(--secondary-transparent);
-        border: unset;
+.menu-button {
+    align-items: center;
+    background-color: var(--secondary-transparent);
+    border: unset;
+    color: var(--font-green);
+    cursor: pointer;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    width: 3rem;
+    z-index: 50;
+}
+
+.burger-btn {
+    &:hover {
+        background-color: var(--secondary-transparent)
+    }
+    a {
         color: var(--font-green);
-        cursor: pointer;
-        display: flex;
-        height: 3rem;
-        justify-content: center;
-        position: absolute;
-        right: 0;
-        width: 3rem;
-        z-index: 50;
+        text-decoration: none;
     }
 
+}
 
 .bgr-blur {
     backdrop-filter: blur(9px);
@@ -77,13 +86,13 @@ ul {
     left: 0;
     position: absolute;
     z-index: 50;
-    
+
     .media-icon {
         align-items: center;
         background-color: var(--secondary-transparent);
         margin-right: 1rem;
         padding: 0.5rem;
-        
+
         &:hover {
             background-color: var(--secondary-color);
         }
@@ -95,7 +104,6 @@ ul {
 }
 
 @media (max-width: 760px) {
-    
     .name-logo {
         border-left: none;
         margin-left: 0;
@@ -103,9 +111,7 @@ ul {
 }
 
 @media (max-width: 550px) {
-    
     .menu-nav {
         height: 3rem !important;
     }
 }
-

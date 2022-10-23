@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalService } from '../global.service';
 
 @Component({
   selector: 'app-home',
@@ -9,14 +10,14 @@ export class HomeComponent implements OnInit {
 
   mobileWidth: boolean = false;
 
-  constructor() { }
+  constructor(private service: GlobalService) { }
 
   ngOnInit(): void {
     this.responsivWindow();
   }
 
   responsivWindow() {
-    if (window.innerWidth < 550 ) {
+    if (window.innerWidth < 550) {
       console.log(window.innerWidth);
       this.mobileWidth = true;
       console.log(this.mobileWidth);
