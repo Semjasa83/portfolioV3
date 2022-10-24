@@ -14,19 +14,16 @@ export class AppComponent {
   @HostListener('window:resize', ['$event'])
 	onResize(event:any) {
 		this.width = event.target.innerWidth;
-    //console.log(this.width);
     this.mobileMenu();
 
 }
 
 mobileMenu() {
   if (this.width < 550 ) {
-    //console.log(this.width);
     this.mobileWidth = true;
   } else {
     this.mobileWidth = false;
   }
-  console.log(this.mobileWidth);
 }
 
 }
