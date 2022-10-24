@@ -1,4 +1,4 @@
-<div class="position-container">
+<div class="position-container" (window:resize)="onResize($event)">{{ width }}>
     <app-navigation></app-navigation>
     <router-outlet></router-outlet>
     <app-footer></app-footer>
