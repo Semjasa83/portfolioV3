@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { GlobalService } from '../global.service';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +9,7 @@ import { GlobalService } from '../global.service';
 export class HomeComponent implements OnInit {
 
 
-  constructor(public service: GlobalService) { }
+  constructor(public service: AppComponent) { }
 
   ngOnInit(): void {
   }

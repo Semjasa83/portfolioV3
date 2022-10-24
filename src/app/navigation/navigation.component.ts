@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { GlobalService } from '../global.service';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-navigation',
@@ -8,12 +8,12 @@ import { GlobalService } from '../global.service';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor(public service: GlobalService ) {
+  constructor(public service: AppComponent) {
 
   }
 
 
   ngOnInit(): void {
-    this.service.responsivWindow();
+    //this.service.responsivWindow();
   }
 }
