@@ -12,13 +12,13 @@
     </div>
 
     <button class="menu-button" mat-icon-button *ngIf="service.mobileWidth" [matMenuTriggerFor]="burgermenu">
-        <mat-icon>menu</mat-icon>
+        <i class="fa-solid fa-bars"></i>
     </button>
     <mat-menu #burgermenu="matMenu" class="burger-menu">
-        <button mat-menu-item class="burger-btn"><a class="cursor" href='#home'>HOME</a></button>
-        <button mat-menu-item class="burger-btn"><a class="cursor" href='#about'>ABOUT</a></button>
-        <button mat-menu-item class="burger-btn"><a class="cursor" href='#projects'>PROJECTS</a></button>
-        <button mat-menu-item class="burger-btn"><a class="cursor" href='#contact'>CONTACT</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor burger-link" href='#home'>HOME</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor burger-link" href='#about'>ABOUT</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor burger-link" href='#projects'>PROJECTS</a></button>
+        <button mat-menu-item class="burger-btn"><a class="cursor burger-link" href='#contact'>CONTACT</a></button>
     </mat-menu>
 
     <ul class="disp-fl-just" *ngIf="!service.mobileWidth">

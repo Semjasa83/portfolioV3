@@ -57,22 +57,28 @@ ul {
     color: var(--font-green);
     cursor: pointer;
     display: flex;
+    font-size: 2rem;
     height: 3rem;
     justify-content: center;
     position: absolute;
     right: 0;
-    width: 3rem;
+    width: 6rem;
     z-index: 50;
+    &:hover {
+        background-color: var(--secondary-color);
+    }
+    
 }
 
 .burger-btn {
-    
+    width: 120px;
     &:hover {
         background-color: var(--secondary-transparent)
     }
-    a {
+    .burger-link {
         color: var(--font-green);
         text-decoration: none;
+        padding: 0.5rem !important;
     }
 }
 
