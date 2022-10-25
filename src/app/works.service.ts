@@ -21,7 +21,7 @@ export class WorksService {
       "name": "Pokedex",
       "img": "assets/img/pokedex.jpg",
       "gitURL": "https://github.com/Semjasa83/pokedex_2.git",
-      "webURL": "#",
+      "webURL": "https://pokedex.marcel-de-zanna.de",
       "description": "In this project, the focus was on receiving data from an API in several levels and rendering them.",
       "tech": "HTML/SCSS, JavaScript",
       "status": "activ"
@@ -31,7 +31,7 @@ export class WorksService {
       "name": "Ring of Fire",
       "img": "assets/img/frame-ring.jpg",
       "gitURL": "https://github.com/Semjasa83/ringoffire",
-      "webURL": "#",
+      "webURL": "https://ringoffire.marcel-de-zanna.de",
       "description": "Multiplayer browser game Implementation of the card game Ring of Fire.",
       "tech": "HTML/SCSS, Angular, Typescript, Google Firebase",
       "status": "activ"
@@ -42,7 +42,7 @@ export class WorksService {
       "name": "Join-Kanban-Board",
       "img": "./assets/img/#",
       "gitURL": "https://github.com/Semjasa83/join_2.git",
-      "webURL": "#",
+      "webURL": "https://join.marcel-de-zanna.de",
       "description": "This KANBAN board was about teamwork, UX design implementation and practical relevance.",
       "tech": "Angular, Materials, AOS, Django (by N.R.)",
       "status": "activ"
@@ -53,7 +53,7 @@ export class WorksService {
       "name": "El Pollo Loco",
       "img": "assets/img/elpollo-frame.jpg",
       "gitURL": "https://github.com/Semjasa83/el_pollo",
-      "webURL": "#",
+      "webURL": "https://elpollo.marcel-de-zanna.de",
       "description": "Small jump `n run browser game using OOP in JavaScript.",
       "tech": "HTML/CSS, JavaScript",
       "status": "activ"
