@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'imprint', component: ImprintComponent },
   { path: 'success', component: SuccessComponent },
+  { path: '**', component: HomeComponent}
 ];
 
 @NgModule({
